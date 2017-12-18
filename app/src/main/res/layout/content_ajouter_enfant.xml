@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <TextView
+        android:id="@+id/textViewInscriptionDescription"
+        android:layout_width="360dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:text="@string/description_inscription"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewInscriptionNom"
+        android:layout_width="120dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:gravity="bottom|end"
+        android:text="@string/nom_generic"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInscriptionDescription" />
+
+    <EditText
+        android:id="@+id/editTextIncriptionNom"
+        android:layout_width="180dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintLeft_toRightOf="@+id/textViewInscriptionNom"
+        app:layout_constraintTop_toTopOf="@+id/textViewInscriptionNom" />
+
+    <TextView
+        android:id="@+id/textViewInscriptionPrenom"
+        android:layout_width="120dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:gravity="bottom|end"
+        android:text="@string/prenom_generic"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInscriptionNom" />
+
+    <EditText
+        android:id="@+id/editTextIncriptionPrenom"
+        android:layout_width="180dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintLeft_toRightOf="@+id/textViewInscriptionPrenom"
+        app:layout_constraintTop_toTopOf="@+id/textViewInscriptionPrenom" />
+
+    <TextView
+        android:id="@+id/textViewInscriptionDateNaissance"
+        android:layout_width="120dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:gravity="bottom|end"
+        android:text="@string/date_naissance_generic"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInscriptionPrenom" />
+
+    <EditText
+        android:id="@+id/editTextIncriptionDateNaissance"
+        android:layout_width="180dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:clickable="true"
+        android:focusable="false"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintLeft_toRightOf="@+id/textViewInscriptionDateNaissance"
+        app:layout_constraintTop_toTopOf="@+id/textViewInscriptionDateNaissance" />
+
+    <TextView
+        android:id="@+id/textViewInscriptionAutorisationParentale"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="@string/autorisation_parentale"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInscriptionDateNaissance" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAutorisationParentale"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/validation_autorisatoin_parentale"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInscriptionAutorisationParentale" />
+
+    <TextView
+        android:id="@+id/textViewInscriptionCertificatMedical"
+        android:layout_width="408dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:text="@string/demande_certificat_medial"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxAutorisationParentale" />
+
+    <Button
+        android:id="@+id/button_validation_inscription"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:text="@string/bouton_valider_inscription"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInscriptionCertificatMedical" />
+
+    <TableLayout
+        android:id="@+id/bordureInscription"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:background="@drawable/border_inscription"
+        app:layout_constraintBottom_toTopOf="@+id/button_validation_inscription"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInscriptionDescription"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp">
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

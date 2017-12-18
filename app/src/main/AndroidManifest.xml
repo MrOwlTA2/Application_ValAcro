@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.isen_lille.valacro">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_icon_valacro"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_icon_valacro"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAZCqy6tfRpQI_jPW9Ef-rWa7hZHva8nG4"/>
+
+        <activity
+            android:name=".SplashBackground"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UserAccueil" />
+        <activity android:name=".Inscription" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity
+            android:name=".AdminAccueil"
+            android:label="@string/title_activity_admin_accueil"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".AddEventActivity" />
+        <activity android:name=".CalendarActivity" />
+        <activity android:name=".EventPreviewAdminActivity" />
+        <activity android:name=".EventImageActivity" />
+        <activity android:name=".EventImageAdminActivity" />
+        <activity android:name=".EventPreviewActivity" />
+        <activity android:name=".MapsActivity" />
+    </application>
+
+</manifest>

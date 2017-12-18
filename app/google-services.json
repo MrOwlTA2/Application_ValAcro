@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "55557455957",
+    "firebase_url": "https://valacro-9c3bd.firebaseio.com",
+    "project_id": "valacro-9c3bd",
+    "storage_bucket": "valacro-9c3bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55557455957:android:93187a6ead551ecc",
+        "android_client_info": {
+          "package_name": "com.isen_lille.valacro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55557455957-2ti6umpht6ln4mn5f17otkr92jvljqib.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.isen_lille.valacro",
+            "certificate_hash": "d29eaad4a3ec3846c09756e6832c8519571860ec"
+          }
+        },
+        {
+          "client_id": "55557455957-j1e8hpfko0u0t6pejqa8nde9kvf58ge5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZBZQwfhpC_O48biCBQ-H2Cj9Td4h66jY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55557455957-j1e8hpfko0u0t6pejqa8nde9kvf58ge5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

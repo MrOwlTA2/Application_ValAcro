@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Val\'Acro</string>
+
+    <!-- Strings de la page de connection -->
+    <string name="login_name">Adresse mail</string>
+    <string name="password">Mot de passe</string>
+    <string name="remind_me">Se souvenir de moi</string>
+    <string name="button_connect">Connection</string>
+    <string name="button_inscription">Pas encore incrit ?</string>
+    <string name="button_valider_inscription">S\'inscrire</string>
+    <string name="forgotten_password">Mot de passe oublié</string>
+    <string name="forgotten_password_msg">Veuillez entrer votre email pour recevoir les instructions de réinitialisation du mot de passe.</string>
+    <string name="button_reset_password">Rénitialiser le mot de passe</string>
+
+    <!-- Strings de d'inscription & Mon profil -->
+    <string name="nom_generic">Nom :</string>
+    <string name="prenom_generic">Prénom :</string>
+    <string name="date_naissance_generic">Date de naissance :</string>
+    <string name="mail_generic">Adresse mail :</string>
+    <string name="telephone_generic">N° de téléphone :</string>
+    <string name="mon_telephone">Mon n° de téléphone</string>
+    <string name="adresse_generic">Adresse postale :</string>
+    <string name="mon_adresse">Mon adresse postale</string>
+    <string name="code_postal_generic">Code postal :</string>
+    <string name="mon_code_postal">Mon code postal</string>
+    <string name="ville_generic">Ville :</string>
+    <string name="ma_ville">Ma ville</string>
+    <string name="bouton_valider_inscription">Valider</string>
+    <string name="demande_certificat_medial">Un certificat médical pourra vous êtes demandé au cours de l\'année</string>
+    <string name="autorisation_parentale">En acceptant l\'inscription, vous :
+    \n Autorisez les responsables de Val\'Acro à faire pratiquer, en cas d\'urgence, une intervention médicale ou chirurgicale en cas de nécessité.
+    \n Autorisez l\'adhérent à venir par ses propres moyens sur le lieu d\'entraînement ou de compétition et à être transporté en autocar ou, le cas échéant, par les véhicules des accompagnateurs</string>
+    <string name="validation_autorisatoin_parentale">Je valide les conditions</string>
+    <string name="description_inscription">Vous voici sur le formulaire d\'inscription, veuillez remplir les champs ci-dessous.</string>
+    <string name="description_mon_profil">Vous trouverez sur cette page le nombre d\'adhérents inscrits ainsi que les principales informations les concernant.</string>
+
+    <!-- Strings partie events -->
+    <string name="date_de_levenement">Date de l\'événement :</string>
+    <string name="enregistrer_levenement">Enregistrer l\'événement</string>
+    <string name="heure_de_levenement">Heure de l\'événement :</string>
+    <string name="lieu_de_levenement">Lieu de l\'événement :</string>
+    <string name="nom_de_levenement">Nom de l\'événement :</string>
+    <string name="pas_d_heure_selectionnee">Pas d\'heure sélectionnée</string>
+    <string name="pas_de_date_selectionnee">Pas de date sélectionnée</string>
+    <string name="saisir_le_nom">Saisir le nom</string>
+    <string name="ajouter_un_evenement">Ajouter un événement</string>
+    <string name="liste_des_evenements">Liste des événements :</string>
+    <string name="evenements_passes">Evénements passés :</string>
+    <string name="evenements_venir">Evénements à venir :</string>
+    <string name="Calendrier">Calendrier</string>
+    <string name="choisir_date">Choisir date</string>
+    <string name="choisir_heure">choisir heure</string>
+    <string name="ajouter_affiche">Ajouter une affiche</string>
+    <string name="btn_back"><![CDATA[<< Retour]]></string>
+    <string name="nom">Nom:</string>
+    <string name="de">De :</string>
+    <string name="date">Date :</string>
+    <string name="liste_des_participants">Liste des participants :</string>
+    <string name="affiche">Affiche :</string>
+    <string name="je_ne_participe_pas">Je ne participe pas</string>
+    <string name="je_participe">Je participe</string>
+    <string name="afficher_affiche">Voir l\'affiche de l\'évènement</string>
+    <string name="default_txt">L\'affiche est consultable sur notre <a href="https://www.facebook.com/groups/900130576723422">Facebook</a></string>
+    <string name="wip">Module pas encore implanté</string>
+
+    <!-- Strings page messagerie -->
+    <string name="hint_message">Message</string>
+    <string name="messagerie_destinataire">Destinataire(s)</string>
+    <string name="messagerie_choisir_destinataire">Cliquez pour choisir destinataire</string>
+    <string name="messagerie_message">Message</string>
+    <string name="messagerie_envoyer">Envoyer</string>
+
+    <!-- String page nous contacter -->
+    <string name="informations_asso">Association Val\'Acro\nNous contacter au XX XX XX XX XX</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_admin_accueil">AdminAccueil</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

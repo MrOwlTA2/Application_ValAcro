@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mon_profil"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Mon profil" />
+        <item
+            android:id="@+id/nav_groupe_entrainement"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Groupes et entrainements" />
+
+        <item
+            android:id="@+id/nav_messagerie"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Messagerie" />
+    </group>
+
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_contacter"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Nous contacter" />
+            <item
+                android:id="@+id/nav_disconnect"
+                android:title="Se déconnecter" />
+        </menu>
+    </item>
+
+
+</menu>

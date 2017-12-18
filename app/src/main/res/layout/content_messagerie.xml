@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViewMessagerieDestinataire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/messagerie_destinataire"
+        android:textSize="@dimen/_16sdp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewChoisirDestinataire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="8dp"
+        android:textStyle="italic"
+        android:text="@string/messagerie_choisir_destinataire"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMessagerieDestinataire"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="2dp" />
+
+    <TextView
+        android:id="@+id/textViewMessagerieMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="@string/messagerie_message"
+        android:textSize="@dimen/_16sdp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewChoisirDestinataire"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp" />
+
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:hint="@string/hint_message"
+        android:textColorHint="#98525256"
+        android:textStyle="italic"
+        android:textCursorDrawable="@drawable/cursor"
+        android:background="@drawable/border_messagerie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingLeft="@dimen/_5sdp"
+        android:paddingEnd="@dimen/_5sdp"
+        android:paddingRight="@dimen/_5sdp"
+        android:ems="16"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="17dp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMessagerieMessage"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <Button
+        android:id="@+id/buttonMessagerieEnvoyer"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:text="@string/messagerie_envoyer"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMessage"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+
+</android.support.constraint.ConstraintLayout>

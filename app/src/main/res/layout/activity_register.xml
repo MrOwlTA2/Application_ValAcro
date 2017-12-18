@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mail_generic"
+            android:layout_margin="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/mail_generic"
+            android:layout_margin="15dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:layout_margin="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/password"
+            android:layout_margin="15dp"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/password"
+            android:layout_margin="15dp"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/button_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_valider_inscription"
+            android:textAllCaps="false"
+            android:layout_margin="15dp"
+            android:textSize="20sp"/>
+    </LinearLayout>
+</ScrollView>
+

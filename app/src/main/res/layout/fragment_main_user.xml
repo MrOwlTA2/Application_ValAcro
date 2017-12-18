@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.isen_lille.valacro.UserAccueil"
+    tools:showIn="@layout/app_bar_main"
+    android:id="@+id/fragment_layout_user_accueil">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/goCalendar"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:text="@string/Calendrier"
+                android:textAllCaps="false"
+                tools:layout_editor_absoluteX="47dp"
+                tools:layout_editor_absoluteY="8dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_margin="15dp"
+                android:text="@string/liste_des_evenements" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/evenements_venir"
+                android:textStyle="bold"
+                android:layout_margin="15dp"
+                android:textSize="16sp"/>
+
+            <ListView
+                android:id="@+id/upcoming_events"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/evenements_passes"
+                android:textStyle="bold"
+                android:layout_margin="15dp"
+                android:textSize="16sp"/>
+
+            <ListView
+                android:id="@+id/past_events"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+
+        </LinearLayout>
+
+</ScrollView>

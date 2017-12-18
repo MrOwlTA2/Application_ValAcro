@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <include
+            layout="@layout/content_messagerie"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"/>
+
+    </ScrollView> <-->
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="228dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="National"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/textView3"
+        app:layout_constraintRight_toRightOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.003" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="228dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Federal A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/textView2"
+        app:layout_constraintRight_toRightOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="228dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Federal B confirmé"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/textView"
+        app:layout_constraintRight_toRightOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="228dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Federal B débutant"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/editText4"
+        app:layout_constraintRight_toRightOf="@+id/editText4"
+        app:layout_constraintTop_toBottomOf="@+id/editText4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="377dp"
+        android:layout_height="108dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="text"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="79dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.948"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <EditText
+        android:id="@+id/et_subject"
+        android:layout_width="285dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Subject"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/editText2"
+        app:layout_constraintHorizontal_bias="0.506"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="0.995"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="228dp"
+        android:layout_height="28dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="BabyGym1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="229dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="BabyGym2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="@+id/editText"
+        app:layout_constraintRight_toRightOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="7dp" />
+
+    <TextView
+        android:id="@+id/editText4"
+        android:layout_width="228dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Ecole d'Acro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="@+id/editText3"
+        app:layout_constraintRight_toRightOf="@+id/editText3"
+        app:layout_constraintTop_toBottomOf="@+id/editText3"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <CheckBox
+        android:id="@+id/boxBaby1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintLeft_toRightOf="@+id/editText"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.4"
+        app:layout_constraintBottom_toTopOf="@+id/boxBaby2" />
+
+    <CheckBox
+        android:id="@+id/boxBaby2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText3"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintLeft_toRightOf="@+id/editText3"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editText3"
+        app:layout_constraintVertical_bias="0.695" />
+
+    <CheckBox
+        android:id="@+id/boxEcole"
+        android:layout_width="29dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText4"
+        app:layout_constraintLeft_toRightOf="@+id/editText4"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editText4"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintVertical_bias="0.761" />
+
+    <CheckBox
+        android:id="@+id/boxFedBdebutant"
+        android:layout_width="30dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/boxEcole"
+        app:layout_constraintRight_toRightOf="@+id/boxEcole"
+        app:layout_constraintTop_toBottomOf="@+id/boxEcole" />
+
+    <CheckBox
+        android:id="@+id/boxFedBconfirme"
+        android:layout_width="31dp"
+        android:layout_height="28dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintVertical_bias="0.314" />
+
+    <CheckBox
+        android:id="@+id/boxFedA"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintVertical_bias="0.391"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/boxNational"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.465"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
